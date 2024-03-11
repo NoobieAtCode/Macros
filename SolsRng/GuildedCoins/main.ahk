@@ -1,10 +1,10 @@
 #SingleInstance Force
 
-#^2::
+^!2::
     LVAR1 := True
 return
 
-#^!1::
+^!1::
     LVAR1 := False
     Loop {
         MouseMove, 1245, 450
